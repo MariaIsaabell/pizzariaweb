@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdf5e6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/img/ilustracao-de-pizza-desenhada-a-mao_23-2151630886.avif'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#login {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+#login img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ff9100;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+.entrar input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff9100;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.entrar input[type="submit"]:hover {
+    background-color: #e07b00;
+}
+
+.entrar p a {
+    color: #ff9100;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.entrar p a:hover {
+    text-decoration: underline;
+}
